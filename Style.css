@@ -1,13 +1,7 @@
 div {
   float: left;
 }
-.sectionHeader {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  background-color: rgb(206, 255, 71);
-}
+
 .Login {
   float: right;
   align-items: flex-end;
@@ -51,6 +45,7 @@ nav {
   color: red;
 }
 .boxItemHeader {
+  color: white;
   width: 100%;
   text-align: center;
 
@@ -68,6 +63,8 @@ article {
   display: table-row;
   float: left;
   margin-top: 5px;
+
+  padding: 5px;
 }
 section {
   display: table-cell;
@@ -76,8 +73,26 @@ section {
   border-style: solid;
   border-color: red;
 }
-.sectionItem {
-  margin: 10px;
+.sectionHeader {
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    background-color: rgb(71, 71, 255);
+  }
+  .sectionBody{
+    width: 100%;
+    border-style: solid;
+   /* 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+  
+  }
+.product-box {
+  
   text-align: center;
 
   border: 1px solid;
@@ -85,8 +100,12 @@ section {
   border-color: black;
   background-color: rgb(118, 188, 241);
 
-  width: 20%;
+  width: 23%;
   height: 40%;
+}
+.photo{
+    width: 80%;
+
 }
 aside {
   width: 20%;
@@ -151,4 +170,12 @@ marquee {
 .border {
   border-width: 1px;
   border-style: solid;
+}
+.price{
+    color: red;
+    font-size: 18;
+}
+.bill{
+    font-size: 20;
+    font-style: bold;
 }
