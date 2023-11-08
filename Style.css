@@ -1,0 +1,63 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 30;
+}
+nav{
+    padding: 20px;
+    padding: 10px;
+    background-color: rgb(8, 174, 55);
+}
+article{
+    
+    background-color: rgb(190, 248, 102);
+}
+section{
+    float: left;
+}
+aside{
+    background-color: aliceblue;
+    float: left;
+}
+.asideR{
+    width: 20%;
+    float: right;
+}
+footer{
+    background-color: rebeccapurple;
+}
+ul{
+    font-size: medium;
+    list-style-type: square;
+}
+p{
+    font-size: large;
+}
+.Login{
+    float: right;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.imgPanel{
+    height: 40%;
+    width: 40%;
+}
+.imgMarquee{
+    height: max-content;
+    width: max-content;
+}
+div{
+    float: left;
+}
+
+.divFloatRight{
+    float: right;
+}
+.divSearch{
+    float:right;
+}
+
+marquee{
+    width: 20%;
+}
