@@ -9,21 +9,24 @@
     />
     <title>ABC Bookstore</title>
   </head>
+
+
   <body>
-    <header>
+    <header class="border">
+
       <img src="./img_Practice3/logoABCbook.png" class="imgPanel" />
 
-    
+      <div class="Login">
       <i class="fa fa-sign-in" aria-hidden="true"
         ><a href="./Problem1_Registration.html"> Login | Register</a></i
       >
       <i class="fa fa-shopping-cart" aria-hidden="true"><a href=""> Cart</a></i>
-   
+    </div>
     </header>
 
-    <nav>
-      <a href="./Problem4_Nav.html">Home page</a>
-      <a href="./Problem4_Nav.html">Introduction</a>
+    <nav class="border">
+      <a href="./Problem4_Nav.html">Home page</a> |
+      <a href="./Problem4_Nav.html">Introduction</a> |
       <a href="./Problem4_Nav.html">Contact</a>
 
       <div class="divSearch">
@@ -37,65 +40,130 @@
       </div>
     </nav>
 
-    <div>
+    <div id="body">
       <article>
-        <aside>
-          <p><strong>BOOKS BY SUBJECT</strong></p>
-          <ul>
-            <li><a href="">Foreign language</a></li>
-            <li><a href="">Information technology</a></li>
-            <li><a href="">Law</a></li>
-            <li><a href="">Literature</a></li>
-            <li><a href="">Science and technology</a></li>
-            <li><a href="">Africulture</a></li>
-            <li><a href="">History of geography</a></li>
-            <li><a href="">Economics</a></li>
-            <li><a href="">Listen to the song</a></li>
-          </ul>
-          <p><strong>BOOKS BY PUBLISHER</strong></p>
-          <ul>
-            <li><a href="">Young publishers</a></li>
-            <li><a href="">Statistics Publishing House</a></li>
-            <li><a href="">Bronze needle</a></li>
-            <li><a href="">National University</a></li>
-            <li><a href="">Artistic craft culture</a></li>
-            <li><a href="">Culture</a></li>
-            <li><a href="">History of geography</a></li>
-            <li><a href="">Labor-Society</a></li>
-            <li><a href="">Science & Engineering</a></li>
-          </ul>
+        <aside id="asideL">
+            <div class="boxItem">
+              <div class="boxItemHeader">
+                <strong>BOOKS BY SUBJECT</strong>
+              </div>
+                <ul>
+                  <li><a href="">Foreign language</a></li>
+                  <li><a href="">Information technology</a></li>
+                  <li><a href="">Law</a></li>
+                  <li><a href="">Literature</a></li>
+                  <li><a href="">Science and technology</a></li>
+                  <li><a href="">Africulture</a></li>
+                  <li><a href="">History of geography</a></li>
+                  <li><a href="">Economics</a></li>
+                  <li><a href="">Listen to the song</a></li>
+                </ul>
+              </div>
+
+                <div class="boxItem">
+                <div class="boxItemHeader">
+                <strong>BOOKS BY PUBLISHER</strong>
+              </div>
+                <ul>
+                  <li><a href="">Young publishers</a></li>
+                  <li><a href="">Statistics Publishing House</a></li>
+                  <li><a href="">Bronze needle</a></li>
+                  <li><a href="">National University</a></li>
+                  <li><a href="">Artistic craft culture</a></li>
+                  <li><a href="">Culture</a></li>
+                  <li><a href="">History of geography</a></li>
+                  <li><a href="">Labor-Society</a></li>
+                  <li><a href="">Science & Engineering</a></li>
+                </div>
+
         </aside>
 
         <section>
-          <table>
-            <caption>
-              Visual Basic
-            </caption>
-            <colgroup>
-              <col style="width: 50%" />
-            </colgroup>
-            <tr align="center">
-              <td>
-                <img
-                  class="imgProduct"
-                  src="./img_Practice3/VisualBasic.png"
-                  alt="img.jpg"
-                />
-              </td>
-            </tr>
-            <tr align="center">
-              <td>Price: 26.0000 VND</td>
-            </tr>
-            <tr align="center">
-              <td><button type="submit">Buy</button></td>
-            </tr>
-          </table>
+          <div class="sectionHeader">
+              <strong>NEW BOOKS</strong>
+            </div>
+          
+            <div >
+            <div class="sectionItem">
+            <p><strong>Visual Basic</strong></p>
+
+            <img
+              class="imgProduct"
+              src="./img_Practice3/VisualBasic.png"
+              alt="img.jpg"
+            />
+
+            <p>Price: 26.0000 VND</p>
+
+            <button type="submit">Buy</button>
+          </div>
+          
+          <div class="sectionItem">
+            <p><strong>Visual Basic</strong></p>
+
+            <img
+              class="imgProduct"
+              src="./img_Practice3/VisualBasic.png"
+              alt="img.jpg"
+            />
+
+            <p>Price: 26.0000 VND</p>
+
+            <button type="submit">Buy</button>
+          </div>
+
+          <div class="sectionItem">
+            <p><strong>Visual Basic</strong></p>
+
+            <img
+              class="imgProduct"
+              src="./img_Practice3/VisualBasic.png"
+              alt="img.jpg"
+            />
+
+            <p>Price: 26.0000 VND</p>
+
+            <button type="submit">Buy</button>
+          </div>
+
+          <div class="sectionItem">
+            <p><strong>Visual Basic</strong></p>
+
+            <img
+              class="imgProduct"
+              src="./img_Practice3/VisualBasic.png"
+              alt="img.jpg"
+            />
+
+            <p>Price: 26.0000 VND</p>
+
+            <button type="submit">Buy</button>
+          </div>
+
+          <div class="sectionItem">
+            <p><strong>Visual Basic</strong></p>
+
+            <img
+              class="imgProduct"
+              src="./img_Practice3/VisualBasic.png"
+              alt="img.jpg"
+            />
+
+            <p>Price: 26.0000 VND</p>
+
+            <button type="submit">Buy</button>
+          </div>
+
+        </div>
         </section>
 
-        <aside class="asideR">
-          <table>
-            <tr>
-              <td>
+
+        <aside id="asideR">
+          <div class="boxItem">
+            <div class="boxItemHeader">
+              <strong>BOOKS BY SUBJECT</strong>
+            </div>
+            <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -114,10 +182,8 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-            <tr>
-              <td>
+              </div>
+                <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -131,10 +197,8 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-            <tr>
-              <td>
+              </div>
+                <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -149,10 +213,8 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-            <tr>
-              <td>
+              </div>
+                <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -167,10 +229,8 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-            <tr>
-              <td>
+              </div>
+                <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -184,10 +244,8 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-            <tr>
-              <td>
+              </div>
+                <div class="asideItem">
                 <marquee
                   direction="up"
                   scrollamount="3"
@@ -202,11 +260,14 @@
                     >
                   </p>
                 </marquee>
-              </td>
-            </tr>
-          </table>
+              </div>
+      </div>
 
-          <p><strong>THE WEBSITE LINKS</strong></p>
+      <div class="boxItem">
+        <div class="boxItemHeader">
+          <strong>THE WEBSITE LINKS</strong>
+        </div>
+          
 
           <select name="websiteLinks" id="">
             <option value="default" selected="selected">
@@ -219,15 +280,24 @@
             <option value="logoABCbook_link">ABC Book</option>
             <option value="VisualBasic_link">Visual Basic</option>
           </select>
-
+          </div>
+          <div class="boxItem">
+            <div class="boxItemHeader">
+              <strong>ACCESS STATISTIC</strong>
+            </div>
+          <p><strong>Total access: 500</strong></p>
+          <p><strong>Online: 3</strong></p>
+          </div>
         </aside>
       </article>
     </div>
 
-    <footer>
-        <p><strong>ACCESS STATISTIC</strong></p>
-        <p><strong>Total access: 500</strong></p>
-        <p><strong>Online: 3</strong></p>
+
+
+    <footer class="border">
+      <p><strong>ACCESS STATISTIC</strong></p>
+      <p><strong>Total access: 500</strong></p>
+      <p><strong>Online: 3</strong></p>
     </footer>
   </body>
 </html>
