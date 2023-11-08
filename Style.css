@@ -1,155 +1,154 @@
-div{
-    float: left;
+div {
+  float: left;
 }
-.sectionHeader{
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(71, 71, 255);
+.sectionHeader {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(206, 255, 71);
 }
-.Login{
-    float: right;
-    align-items: flex-end;
+.Login {
+  float: right;
+  align-items: flex-end;
 }
-header{
-    clear: both;
-    background-color: rgb(255, 255, 255);
-    padding: 30;
-    float: left;
-    width: 100%;
-}
-nav{
-    clear: both;
-    padding: 20px;
-    padding: 10px;
-    background-color: rgb(8, 174, 55);
-}
-#body{
-    float: left;
-    background-color: aliceblue;
-    clear:both;
+header {
+  clear: both;
+  background-color: rgb(255, 255, 255);
 
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+  float: left;
+  width: 100%;
+}
+nav {
+  clear: both;
+  padding: 10px;
+  background-color: rgb(8, 174, 55);
+}
+#body {
+  float: left;
+  background-color: aliceblue;
+  clear: both;
 
-    width: 100%;
-    box-shadow: none;
-}
-.boxItem{
-    border-style: solid;
-    text-align: left;
-    margin: 5px;
-    
-    border-color: rgb(71, 71, 255);
-    border-radius: 5px ;
-    border-width: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
+  width: 100%;
+  box-shadow: none;
 }
-.boxItemHeader{
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(71, 71, 255);
-    border-radius: 5px 5px 0px 0px;
-}
-article{
-    display: table-row;
-    background-color: aliceblue;
-}
-section{
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 60%;
-    float: left;
+.boxItem {
+  text-align: left;
 
-    justify-content: space-around;
+  border-style: solid;
+  border-color: rgb(71, 71, 255);
+  border-radius: 0px 0px 5px 5px;
+  border-width: 1px;
 
-}
-.sectionItem{
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-
-    border: 1px solid ;
-    border-radius: 10px;
-    border-color: black;
-    background-color: rgb(118, 188, 241);
-
-    width: 15%;
-    height: 40%;
-}
-aside{
-    width: 20%;
-    height: 100%;
-    background-color: aliceblue;
-    float: left;
-}
-.asideItem{
-    width: 100%;
-    float: left;
-}
-#asidL{
-    float: left;
-}
-#asideR{
-    float: right;
-}
-footer{
-    align-items: center;
-    clear: both;
-    background-color: rgb(51, 153, 90);
-}
-ul{
-    font-size: medium;
-    list-style-type: square;
-}
-p{
-    font-size: large;
-}
-.Login{
-    float: right;
-}
-img{
-    height: 100%;
-    width: 100%;
-}
-.imgPanel{
-    height: 20%;
-    width: 20%;
-}
-.imgMarquee{
-    height: max-content;
-    width: max-content;
+  width: 100%;
 }
 
+.boxItem#Sta {
+  color: red;
+}
+.boxItemHeader {
+  width: 100%;
+  text-align: center;
 
-.divFloatRight{
-    float: right;
+  background-color: rgb(71, 71, 255);
+  border-radius: 5px 5px 0px 0px;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.divSearch{
-    float:right;
+article {
+  display: table-row;
+  float: left;
+  margin-top: 5px;
+}
+section {
+  display: table-cell;
+  width: 60%;
+
+  border-style: solid;
+  border-color: red;
+}
+.sectionItem {
+  margin: 10px;
+  text-align: center;
+
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgb(118, 188, 241);
+
+  width: 20%;
+  height: 40%;
+}
+aside {
+  width: 20%;
+  height: 100%;
+  border-style: solid;
+}
+aside#left,
+aside#right,
+section {
+  display: table-cell;
+  vertical-align: top;
+}
+aside#left {
+  width: 20%;
+}
+aside#right {
+  width: 20%;
+}
+.asideItem {
+  width: 100%;
+  float: left;
 }
 
-marquee{
-    width: 20%;
+footer {
+  align-items: center;
+  clear: both;
+  background-color: rgb(51, 153, 90);
 }
-.border{
-    border-width: 1px;
-    border-style: solid ;
+ul {
+  font-size: medium;
+  list-style-type: square;
+}
+p {
+  font-size: large;
+}
+.Login {
+  float: right;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.imgPanel {
+  height: 20%;
+  width: 20%;
+}
+.imgMarquee {
+  height: max-content;
+  width: max-content;
 }
 
+.divFloatRight {
+  float: right;
+}
+.divSearch {
+  float: right;
+}
 
-aside#left, aside#right, section{
-    display: table-cell;
-    vertical-align: top;
+marquee {
+  width: 20%;
 }
-aside#left{
-    width: 20%;
-}
-aside#right{
-    width: 20%;
+.border {
+  border-width: 1px;
+  border-style: solid;
 }
